@@ -58,7 +58,7 @@ return (
               <label htmlFor="name" className="block text-sm font-semibold leading-6 text-white">
                 Name
               </label>
-              <div className="">
+              <div>
                 <input
                   type="text"
                   name="user_name"
@@ -74,7 +74,7 @@ return (
               <label htmlFor="email" className="block text-sm font-semibold leading-6 text-white">
                 Email
               </label>
-              <div className="">
+              <div>
                 <input
                   type="email"
                   name="user_email"
@@ -117,7 +117,7 @@ return (
        
       </div>
       <div className="hidden md:block w-1/2 h-[620px]  overflow-hidden pt-10">
-     <img className="" src="/images/leaf1.webp" loading="lazy"></img>
+     <img src="/images/leaf1.webp" loading="lazy"></img>
      </div>
       </div>
       
