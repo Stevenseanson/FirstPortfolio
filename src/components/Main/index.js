@@ -91,7 +91,7 @@ import { useInView } from 'react-intersection-observer';
 {/* ABOUT ME */}
 <div id="about"></div>
 <div className="mt-20 flex" >
-          <img className="hidden md:flex aspect-auto w-[100%] lg:w-[50%] drop-shadow-md object-cover object-left rounded-2xl" src="./images/toronto.png"></img>
+          <img className="hidden md:flex aspect-auto w-[100%] lg:w-[50%] drop-shadow-md object-cover object-left rounded-2xl" src="./images/toronto.png" alt="toronto"></img>
           <div className="lg:pl-10 lg:w-1/2">
             <div ref={fadeIndownRef}
         id="fade-in-down"

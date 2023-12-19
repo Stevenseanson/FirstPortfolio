@@ -18,9 +18,9 @@ const Navbar = () => {
               <div className="flex">
                 
                 <div className="flex flex-shrink-0 items-center">
-                  <a href="/#home">
+                  <Link to="/#home">
                   <h1 className="font-bold text-color-cornsilk ml-2 lg:ml-16 text-4xl" >Sean.dev</h1>
-                  </a>
+                  </Link>
                 </div>
                 <div className=" flex items-center md:hidden">
                  
