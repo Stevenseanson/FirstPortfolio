@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
- <Routes>
+ <Routes basename={process.env.REACT_APP_URI}>
   <Route path="/" element={<Layout />} >
   
     <Route index element={<MainPage/>} />
