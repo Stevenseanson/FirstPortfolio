@@ -38,21 +38,21 @@ const Navbar = () => {
               </div>
               <div className="hidden md:ml-6 mr-16 md:flex md:space-x-8">
                   <Link
-                    to="/#home"
+                    to="/portfolio/#home"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-color-cornsilk hover:text-white hover:border-b-white"
                   >
                     Home
                   </Link>
                   <Link
                  
-                    to="/#about"
+                    to="/portfolio/#about"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-color-cornsilk hover:text-white hover:border-b-white"
                   >
                   About
                   </Link>
                  
                   <Link
-                    to="/#projects"
+                    to="/portfolio/#projects"
                     
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-color-cornsilk hover:text-white hover:border-b-white"
                   >
