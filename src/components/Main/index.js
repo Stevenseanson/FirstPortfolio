@@ -27,7 +27,7 @@ import { useInView } from 'react-intersection-observer';
   ];
 
   const techStackImages = [
-    "/images/html.svg",
+    "./images/html.svg",
     "/images/javascript.svg",
     "/images/css.svg",
     "/images/react.svg",
