@@ -117,7 +117,7 @@ return (
        
       </div>
       <div className="hidden md:block w-1/2 h-[620px]  overflow-hidden pt-10">
-     <img src="/images/leaf1.webp" loading="lazy"></img>
+     <img src="./images/leaf1.webp" loading="lazy"></img>
      </div>
       </div>
       

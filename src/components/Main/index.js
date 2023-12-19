@@ -12,7 +12,7 @@ import { useInView } from 'react-intersection-observer';
       href: 'https://forestparcel.com/couriers',
       description: 'A signup website for delivery bikers. My first professional internship.',
       stack: 'React, Tailwind',
-      imageUrl:'/images/forestparcel1.png'
+      imageUrl:'./images/forestparcel1.png'
      
     },
     {
@@ -21,17 +21,17 @@ import { useInView } from 'react-intersection-observer';
       href:"https://fynder2.netlify.app/",
       description: 'A bootcamp group project. The website simulates Tinder but for local attractions. The "liked" attraction then gets saved to local storage so you can view your most recent likes.',
       stack: 'Javascript, OpenTripMap API',
-      imageUrl:'/images/fynder1.png'
+      imageUrl:'./images/fynder1.png'
       
     },
   ];
 
   const techStackImages = [
     "./images/html.svg",
-    "/images/javascript.svg",
-    "/images/css.svg",
-    "/images/react.svg",
-    "/images/tailwind-css-icon.svg",
+    "./images/javascript.svg",
+    "./images/css.svg",
+    "./images/react.svg",
+    "./images/tailwind-css-icon.svg",
   ];
   
 
@@ -64,13 +64,13 @@ import { useInView } from 'react-intersection-observer';
     <li>
                  <a href="https://github.com/Stevenseanson" className="text-white hover:text-gray-100">
                       <span className="sr-only">Github</span>
-                      <img className="w-[30px]" src="/images/github-mark-white.png"></img>
+                      <img className="w-[30px]" src="./images/github-mark-white.png"></img>
                     </a>
                   </li>
                   <li>
                     <a href="" className="text-white hover:text-gray-100">
                       <span className="sr-only">LinkedIn</span>
-                      <img className="w-[30px]" src="/images/linkedin-app-white-icon.webp"></img>
+                      <img className="w-[30px]" src="./images/linkedin-app-white-icon.webp"></img>
                     </a>
                   </li>
                   </div>
@@ -84,14 +84,14 @@ import { useInView } from 'react-intersection-observer';
   </div></div>
   
   <div className="flex lg:order-2 order-1 lg:w-1/2 lg:justify-center items-end lg:items-center lg:h-screen h-[32vh]" id="container" >
-    <img className="aspect-auto lg:w-[400px] lg:h-[400px] w-[200px] h-[200px]  object-cover drop-shadow-lg max-w-none" id="shape" src="/images/plantsSean.jpg" alt="Headshot"></img>
+    <img className="aspect-auto lg:w-[400px] lg:h-[400px] w-[200px] h-[200px]  object-cover drop-shadow-lg max-w-none" id="shape" src="./images/plantsSean.jpg" alt="Headshot"></img>
   </div>
 </div>
 
 {/* ABOUT ME */}
 <div id="about"></div>
 <div className="mt-20 flex" >
-          <img className="hidden md:flex aspect-auto w-[100%] lg:w-[50%] drop-shadow-md object-cover object-left rounded-2xl" src="/images/toronto.png"></img>
+          <img className="hidden md:flex aspect-auto w-[100%] lg:w-[50%] drop-shadow-md object-cover object-left rounded-2xl" src="./images/toronto.png"></img>
           <div className="lg:pl-10 lg:w-1/2">
             <div ref={fadeIndownRef}
         id="fade-in-down"
@@ -144,7 +144,7 @@ import { useInView } from 'react-intersection-observer';
               </article>
             ))}
             <div className="hidden md:absolute h-full w-full left-0 z-0 overflow-hidden pointer-events-none">
-     <img className="" src="/images/leaf2.webp" loading="lazy"></img>
+     <img className="" src="./images/leaf2.webp" loading="lazy"></img>
      </div>
           </div>
           
