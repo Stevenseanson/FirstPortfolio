@@ -39,8 +39,8 @@ const Contact = () => {
 };
     
 return (
-    <div className="flex ">
-      <div className="isolate w-[380px] h-screen md:w-1/3 bg-color-olive mx-6 lg:mx-16 pt-16 sm:pt-16 lg:px-8">
+    <div className="flex flex-col md:flex-row relative overflow-hidden">
+      <div className="isolate w-[362px] h-screen md:w-1/3 bg-color-olive mx-6 lg:mx-16 pt-16 sm:pt-16 lg:px-8">
         <div
           className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
           aria-hidden="true"
@@ -116,8 +116,8 @@ return (
         </div>
        
       </div>
-      <div className="hidden md:block w-1/2 h-[620px]  overflow-hidden pt-10">
-     <img src="./images/leaf1.webp" loading="lazy"></img>
+      <div className="absolute -bottom-64 block md:block w-screen md:w-1/2 md:h-[620px]  pt-10">
+     <img src="../portfolio/images/leaf1.webp" className="" loading="lazy"></img>
      </div>
       </div>
       

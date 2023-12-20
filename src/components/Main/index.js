@@ -10,7 +10,7 @@ import { useInView } from 'react-intersection-observer';
       id: 1,
       title: 'ForestParcel',
       href: 'https://forestparcel.com/couriers',
-      description: 'A signup website for delivery bikers. My first professional internship.',
+      description: 'A signup website for delivery bikers. My work consists solely of the landing page.',
       stack: 'React, Tailwind',
       imageUrl:'../portfolio/images/forestparcel1.png'
      
@@ -83,7 +83,7 @@ import { useInView } from 'react-intersection-observer';
 </div>
   </div></div>
   
-  <div className="flex lg:order-2 order-1 lg:w-1/2 lg:justify-center items-end lg:items-center lg:h-screen h-[32vh]" id="container" >
+  <div className="flex lg:order-2 order-1 lg:w-1/2 lg:justify-center items-end lg:items-center lg:h-screen h-[34vh]" id="container" >
     <img className="aspect-auto lg:w-[400px] lg:h-[400px] w-[200px] h-[200px]  object-cover drop-shadow-lg max-w-none" id="shape" src="../portfolio/images/plantsSean.jpg" alt="Headshot"></img>
   </div>
 </div>
@@ -91,7 +91,7 @@ import { useInView } from 'react-intersection-observer';
 {/* ABOUT ME */}
 <div id="about"></div>
 <div className="mt-20 flex" >
-          <img className="hidden md:flex aspect-auto w-[100%] lg:w-[50%] drop-shadow-md object-cover object-left rounded-2xl" src="../portfolio/images/toronto.png" alt="toronto"></img>
+          <img className="hidden lg:flex aspect-auto w-[100%] lg:w-[50%] drop-shadow-md object-cover object-left rounded-2xl" src="../portfolio/images/toronto.png" alt="toronto"></img>
           <div className="lg:pl-10 lg:w-1/2">
             <div ref={fadeIndownRef}
         id="fade-in-down"
