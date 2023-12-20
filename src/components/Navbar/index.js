@@ -18,7 +18,7 @@ const Navbar = () => {
               <div className="flex">
                 
                 <div className="flex flex-shrink-0 items-center">
-                  <Link to="/#home">
+                  <Link to=".//#home">
                   <h1 className="font-bold text-color-cornsilk ml-2 lg:ml-16 text-4xl" >Sean.dev</h1>
                   </Link>
                 </div>
@@ -38,21 +38,21 @@ const Navbar = () => {
               </div>
               <div className="hidden md:ml-6 mr-16 md:flex md:space-x-8">
                   <Link
-                    to="/#home"
+                    to=".//#home"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-color-cornsilk hover:text-white hover:border-b-white"
                   >
                     Home
                   </Link>
                   <Link
                  
-                    to="/#about"
+                    to=".//#about"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-color-cornsilk hover:text-white hover:border-b-white"
                   >
                   About
                   </Link>
                  
                   <Link
-                    to="/#projects"
+                    to=".//#projects"
                     
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-color-cornsilk hover:text-white hover:border-b-white"
                   >
