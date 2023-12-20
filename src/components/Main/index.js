@@ -83,7 +83,7 @@ import { useInView } from 'react-intersection-observer';
 </div>
   </div></div>
   
-  <div className="flex lg:order-2 order-1 lg:w-1/2 lg:justify-center items-end lg:items-center lg:h-screen h-[34vh]" id="container" >
+  <div className="flex lg:order-2 order-1 lg:w-1/2 lg:justify-center items-end lg:items-center lg:h-screen h-[38vh]" id="container" >
     <img className="aspect-auto lg:w-[400px] lg:h-[400px] w-[200px] h-[200px]  object-cover drop-shadow-lg max-w-none" id="shape" src="../portfolio/images/plantsSean.jpg" alt="Headshot"></img>
   </div>
 </div>
